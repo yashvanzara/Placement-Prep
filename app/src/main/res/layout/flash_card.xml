@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="3dp">
+        <RelativeLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivCardLogo"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/logo"
+                android:layout_centerHorizontal="true"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/tvCardTagLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ivCardLogo"
+                android:layout_centerHorizontal="true"
+                android:autoLink="web"
+                android:text="@string/learn_code_online"
+                android:textSize="@dimen/card_title_size" />
+            <TextView
+                android:layout_below="@id/tvCardTagLine"
+                android:id="@+id/tvQuestionHeader"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/card_title_size"
+                android:text="@string/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvQuestion"
+                android:textSize="@dimen/card_content_size"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_question_goes_placeholder"/>
+            <TextView
+                android:textColor="@android:color/holo_green_light"
+                android:visibility="invisible"
+                android:id="@+id/tvAnswer"
+                android:textSize="@dimen/card_content_size"
+                android:layout_below="@id/tvQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_answer_goes_placeholder"/>
+
+            <Button
+                android:padding="7dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/rounded_button"
+                android:id="@+id/btnToggle"
+                android:text="@string/show_answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"/>
+            <TextView
+                android:textSize="@dimen/card_content_size"
+                android:id="@+id/tvCardStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

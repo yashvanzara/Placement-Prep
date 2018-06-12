@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_content_size">21sp</dimen>
+    <dimen name="card_title_size">25sp</dimen>
+    <dimen name="card_large_title_size">35sp</dimen>
+</resources>
