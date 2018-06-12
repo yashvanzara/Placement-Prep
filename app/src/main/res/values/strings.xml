@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">PlacementPrep</string>
+    <string name="app_name">Placement Prep</string>
+    <string name="hint_question_goes_placeholder">Question Goes Here</string>
+    <string name="hint_answer_goes_placeholder">Answer Goes Here</string>
+    <string name="question">Question</string>
+    <string name="answer">Answer</string>
+    <string name="no_more_questions">All Questions Completed</string>
+    <string name="show_answer">Show Answer</string>
+    <string name="learn_code_online">Learn Code Online</string>
+    <string name="learn_code_online_website">https://courses.learncodeonline.in</string>
+    <string name="data_structures">Data Structures</string>
+    <string name="topics">Topics</string>
 </resources>
